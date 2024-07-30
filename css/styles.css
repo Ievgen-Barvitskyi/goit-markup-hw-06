@@ -887,6 +887,7 @@ button {
 
 .email-input-subscribe::placeholder {
   color: #ffffff;
+  padding-left: 16px;
 }
 
 .email-input-subscribe:hover,
@@ -1178,7 +1179,7 @@ button {
   flex-shrink: 0;
 }
 
-input:checked + label > span {
+input:checked + label > .icon-span-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -1187,7 +1188,6 @@ input:checked + label > span {
 .link-checkbox {
   color: #4d5ae5;
   text-decoration: underline;
-  /* padding: 2px 4px; */
 }
 
 .send-button {
